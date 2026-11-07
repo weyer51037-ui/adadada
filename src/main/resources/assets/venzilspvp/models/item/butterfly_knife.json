@@ -1,0 +1,18 @@
+{
+  "textures": {"0": "venzilspvp:item/butterfly_knife", "particle": "venzilspvp:item/butterfly_knife"},
+  "elements": [
+    {"name":"handle_a","from":[7,0,6.2],"to":[9,7,7.6],"faces":{"north":{"uv":[0,0,2,7],"texture":"#0"},"south":{"uv":[0,0,2,7],"texture":"#0"},"east":{"uv":[0,0,2,7],"texture":"#0"},"west":{"uv":[0,0,2,7],"texture":"#0"},"up":{"uv":[0,0,2,2],"texture":"#0"},"down":{"uv":[0,0,2,2],"texture":"#0"}}},
+    {"name":"handle_b","from":[7,0,8.4],"to":[9,7,9.8],"faces":{"north":{"uv":[0,6,2,12],"texture":"#0"},"south":{"uv":[0,6,2,12],"texture":"#0"},"east":{"uv":[0,6,2,12],"texture":"#0"},"west":{"uv":[0,6,2,12],"texture":"#0"},"up":{"uv":[0,6,2,8],"texture":"#0"},"down":{"uv":[0,6,2,8],"texture":"#0"}}},
+    {"name":"pivot","from":[6.6,6.2,6],"to":[9.4,7.8,10],"faces":{"north":{"uv":[0,12,3,14],"texture":"#0"},"south":{"uv":[0,12,3,14],"texture":"#0"},"east":{"uv":[0,12,3,14],"texture":"#0"},"west":{"uv":[0,12,3,14],"texture":"#0"},"up":{"uv":[0,12,3,14],"texture":"#0"},"down":{"uv":[0,12,3,14],"texture":"#0"}}},
+    {"name":"blade","from":[7.6,7,7.4],"to":[8.4,15,8.6],"rotation":{"angle":0,"axis":"z","origin":[8,7,8]},"faces":{"north":{"uv":[0,12,2,16],"texture":"#0"},"south":{"uv":[0,12,2,16],"texture":"#0"},"east":{"uv":[0,12,2,16],"texture":"#0"},"west":{"uv":[0,12,2,16],"texture":"#0"},"up":{"uv":[0,12,1,16],"texture":"#0"},"down":{"uv":[0,12,1,16],"texture":"#0"}}}
+  ],
+  "display": {
+    "thirdperson_righthand": {"rotation":[0,-90,55],"translation":[0,3,1],"scale":[0.85,0.85,0.85]},
+    "thirdperson_lefthand": {"rotation":[0,90,-55],"translation":[0,3,1],"scale":[0.85,0.85,0.85]},
+    "firstperson_righthand": {"rotation":[0,-90,25],"translation":[1.1,3.2,1.1],"scale":[0.68,0.68,0.68]},
+    "firstperson_lefthand": {"rotation":[0,90,-25],"translation":[1.1,3.2,1.1],"scale":[0.68,0.68,0.68]},
+    "gui": {"rotation":[30,45,0],"scale":[1,1,1]},
+    "ground": {"translation":[0,3,0],"scale":[0.5,0.5,0.5]},
+    "fixed": {"rotation":[0,90,0],"scale":[1,1,1]}
+  }
+}

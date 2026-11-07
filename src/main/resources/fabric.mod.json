@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "venzilspvp",
+  "version": "${version}",
+  "name": "Venzils PVP Essentials",
+  "description": "Client-side PvP HUD: CPS, reach, TNT fuse timer, butterfly knife swords. Pairs with Sodium/Lithium + Simple Voice Chat.",
+  "authors": ["Venzil"],
+  "license": "MIT",
+  "icon": "assets/venzilspvp/icon.png",
+  "environment": "client",
+  "entrypoints": {"client": ["dev.venzils.pvp.VenzilsPvpClient"]},
+  "depends": {"fabricloader": ">=0.17.0", "fabric-api": "*", "java": ">=25"},
+  "suggests": {"voicechat": "*", "sodium": "*", "lithium": "*", "ferritecore": "*", "entityculling": "*", "immediatelyfast": "*", "modernfix": "*", "modmenu": "*"}
+}
